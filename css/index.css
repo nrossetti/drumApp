@@ -400,19 +400,21 @@
   on small devices, paste the mobile query code up in the buttons section and style it
   there.
   */
-    button {
-        width:40%;
+  button {
+        width: 40%;
         margin: 5%;
-    }
-    table {
+  }
+  table {
     border-collapse: collapse;
-    width:100%;
-    margin : 1em;
-    }
+    width:90%;
+    margin : 5%;
+  }
 
-    tr:nth-child(n + 8) {
-    visibility: hidden;
-    }
+  tr:nth-child(n + 4) {
+    display: none;
+  }
+  
+
   
   /* Larger than mobile */
   @media (min-width: 400px) {}
